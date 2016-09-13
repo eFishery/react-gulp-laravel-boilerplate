@@ -1,0 +1,16 @@
+/vendor
+/public/storage
+/public/assets/img/profile
+/public/assets/prod/img/profile
+/public/assets/img/pond
+/public/assets/prod/img/pond
+/public/assets/ota
+Homestead.yaml
+Homestead.json
+composer.json.template
+/node_modules
+/prod
+.env
+app.js
+*.log
+*.orig

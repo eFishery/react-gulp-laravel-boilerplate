@@ -1,0 +1,56 @@
+{
+  "name": "react-slides",
+  "version": "1.0.0",
+  "description": "Laravel React Slides with Redux",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Imballinst/react-slides"
+  },
+  "main": "gulpfile.js",
+  "directories": {},
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-bootstrap": "^0.30.3",
+    "react-dom": "^0.14.8",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "redux-logger": "^2.6.1",
+  },
+  "devDependencies": {
+    "enzyme": "^2.4.1",
+    "expect": "^1.20.2",
+    "isomorphic-fetch": "^2.2.1",
+    "mocha": "^2.5.3",
+    "nock": "^8.0.0",
+    "react-addons-test-utils": "^15.3.1",
+    "redux-mock-store": "^1.2.0",
+    "sinon": "^1.17.5",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "babel-register": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.3",
+    "run-sequence": "^1.2.1"
+  },
+  "scripts": {
+    "test": "mocha 'resources/assets/tests/js/**/*.test.js' --compilers js:babel-register --recursive"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "laravel"
+  ],
+  "author": "Try Ajitiono",
+  "license": "ISC"
+}

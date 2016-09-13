@@ -1,0 +1,23 @@
+.panel.panel-default {
+	&.panel {
+		&-feeder, &-data, &-checkout {
+			height: calc(90% - 20px);
+			min-height: calc(90% - 20px);
+		}
+
+		&-summary, &-terms {
+			height: calc(50% - 10px);
+			min-height: calc(50% - 10px);
+		}
+	}
+}
+
+.feeder {
+	&-btn {
+		height: 10%;
+
+		.btn-nav {
+			height: 100%;
+		}
+	}
+}
